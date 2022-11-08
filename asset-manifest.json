@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/planets-React/static/css/main.ea39af0f.css",
-    "main.js": "/planets-React/static/js/main.32f17ef3.js",
+    "main.js": "/planets-React/static/js/main.855e36a4.js",
     "static/js/787.ab1c8bae.chunk.js": "/planets-React/static/js/787.ab1c8bae.chunk.js",
     "index.html": "/planets-React/index.html",
     "main.ea39af0f.css.map": "/planets-React/static/css/main.ea39af0f.css.map",
-    "main.32f17ef3.js.map": "/planets-React/static/js/main.32f17ef3.js.map",
+    "main.855e36a4.js.map": "/planets-React/static/js/main.855e36a4.js.map",
     "787.ab1c8bae.chunk.js.map": "/planets-React/static/js/787.ab1c8bae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea39af0f.css",
-    "static/js/main.32f17ef3.js"
+    "static/js/main.855e36a4.js"
   ]
 }
