@@ -3,7 +3,7 @@ import Planet from "./planet";
 import Form from "./form"
 
 async function getPlanets() {
-    let response = await fetch('http://localhost:3000/api/planets.json')
+    let response = await fetch('https://deyvidMatos.github.io/planets-React/api/planets.json')
     let data = await response.json()
     return data
 }

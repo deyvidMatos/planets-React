@@ -5,7 +5,7 @@ import SatellitesFrom from "../planet/form"
 import { Link, useParams } from "react-router-dom"
 
 async function getPlanet(id) {
-    let response = await fetch(`http://localhost:3000/api/${id}.json`);
+    let response = await fetch(`https://deyvidMatos.github.io/planets-React/api/${id}.json`);
     let data = await response.json();
     return data
 }
@@ -35,7 +35,7 @@ const Planet = () => {
     return (
         <div className="singlePlanetContainer">
             <div className="singlePlanet">
-                <Link className='planetContainerTitle' to={'/'} >Lista de planetas</Link>
+                <Link className='planetContainerTitle' to={'/planets-React'} >Lista de planetas</Link>
                 {title}
                 <div className="imgDescr">
                     <div className="singleDescr">

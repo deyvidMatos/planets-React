@@ -13,7 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-          <Route path='/' element={<PlanetsScreen/>} />
+          <Route path='/planets-React' element={<PlanetsScreen/>} />
           <Route path='/planet/:id' element={<PlanetScreen />} />
         </Route>
       </Routes>
